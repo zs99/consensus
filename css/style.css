@@ -1,0 +1,638 @@
+body{
+font-family: 'MuseoSans-500';
+background-color: #f2f2f2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+font-family: 'itc_stone_serif_stdsemibold';
+color: #000;
+}
+p{
+font-family: 'MuseoSans-500';
+font-size: 14px;
+color: #616365;
+}
+hr{
+    border-top: 3px solid black;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0 !important;
+    padding-left:0 !important;
+ 
+}
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+   
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+a {
+  -webkit-transition: .25s all;
+  transition: .25s all;
+}
+.sidebar-nav{
+  text-align: center;
+  background-color: #fff;
+width: 100%;
+margin-bottom: -7px;
+}
+@media screen and (min-width: 992px) {
+.sidebar-nav{
+  position:fixed !important;
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+width: inherit;
+background-color:#fff;
+}
+    }
+
+.card {
+  overflow: auto;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border: 1px solid #2d637f;
+  -webkit-transition: .25s box-shadow;
+  transition: .25s box-shadow;
+  width: 99%;
+min-height: 100%;
+object-fit: cover;
+}
+.card:focus, .card:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-inverse .card-img-overlay {
+  background-color: rgba(51, 51, 51, 0.85);
+  border-color: rgba(51, 51, 51, 0.85);
+}
+.card-block{
+  padding: 15px;
+}
+.card-img-top{
+color:#000;
+}
+.card img{
+
+max-height: 300px;
+margin: 0 auto;
+}
+.card-top{
+background-color: #000;
+}
+.navbar-header{
+  background-color: #990000;
+  width: 100%;
+  z-index: -11 !important;
+}
+.navbar-header-text{
+  padding: 50px 0px 20px 0px;
+  color: #fff;
+  font-family: 'itc_stone_serif_stdsemibold';
+  font-size:28px;
+ }
+.navbar-brand>img{
+  padding:20px 0px 50px 0px;
+  width:210px;
+  }
+.nav-item-ls{
+padding:40px 0px 40px 0px;
+background-color: #dcddde  ;
+text-align: center;
+font-size: 18px;
+color: #616365;
+}
+.nav-item-pb{
+padding:40px 0px 40px 0px;
+background-color: #dcddde;
+font-size: 18px;
+color: #616365;
+}
+.nav-item-lwys{
+padding:40px 0px 40px 0px;
+background-color: #dcddde;
+font-size: 18px;
+color: #616365;
+}
+.header-subtext{
+margin: 0px auto;
+color: white;
+font-family: 'MuseoSans-300';
+max-width: 200px;
+}
+.sidebar-hr{
+margin:0px 30px 0px 30px;
+border-top:2px solid #ccc;
+}
+.navbar-nav{
+background-color: #dcddde;
+z-index: -11 !important;}
+
+.sidebar-footer{
+bottom: 0;
+right:0;
+left:0;
+padding-bottom: 20px;
+padding-top:20px;
+color: #fff;
+background-color:#fff;
+position: absolute;
+display: block;
+margin: 0 auto;
+text-align: center;
+z-index: -9999;
+}
+.icon-block-container{
+display: inline-block;
+width: 100%;
+clear:both;
+background-color: #990000;
+
+}
+#icon-block-1{
+width: calc(100% / 3);
+padding: 30px 0px 30px 0px;
+background-color: #990000;
+color: #fff;
+float: left;
+
+}
+
+#icon-block-2{
+width: calc(100% / 3);
+padding: 30px 0px 30px 0px;background-color: #990000;
+color: #fff;
+float: left;
+
+}
+
+#icon-block-3{
+width: calc(100% / 3);
+padding: 30px 0px 30px 0px;background-color: #990000;
+color: #fff;
+float: left;
+}
+#icon-block-1-bottom{
+height: 85px;
+width: 100%;
+padding: 30px 0px 30px 0px;
+background-color: #212657;
+color: #fff;
+float: left;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#icon-block-1-bottom-active{
+height: 85px;
+width: 100%;
+padding: 30px 0px 30px 0px;
+background-color: #212657;
+color: #fff;
+float: left;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#icon-block-2-bottom{
+height: 85px;
+width: 100%;
+padding: 30px 0px 30px 0px;
+background-color: #365777;
+color: #fff;
+float: left;
+}
+#icon-block-2-bottom-active{
+height: 85px;
+width: 100%;
+padding: 30px 0px 30px 0px;
+background-color: #365777;
+color: #fff;
+float: left;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#icon-block-3-bottom{
+height: 85px;
+width: 100%;
+padding: 30px 0px 30px 0px;
+background-color: #489662;
+color: #fff;
+float: left;
+}
+#icon-block-3-bottom-active{
+height: 85px;
+width: 100%;
+padding: 30px 0px 30px 0px;
+background-color: #489662;
+color: #fff;
+float: left;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.icon-block-text{
+    font-size: 18px;
+    font-family: 'MuseoSans-500';
+    text-transform: uppercase;
+    padding-top:20px;
+}
+.sidebar-info{
+right:0;
+left:0;
+color: #616365;
+position: absolute;
+display: block;
+text-align: center;
+z-index: -1;
+top:40%;
+}
+#navcontainer ul li { display: inline; color: #000; padding-left:25px;padding-right:25px;}
+.sidebar-info-header{
+color: #a7a6ac !important;
+}
+.sidebar-info-event{
+text-align: left;
+padding: 20px 40px 0px 30px;
+}
+.sidebar-info-date{
+text-decoration: underline;
+}
+
+.navbar-default{
+background-color:#dcddde !important;
+}
+
+u {
+    text-decoration: underline;
+}
+@media screen and (max-height: 1100px) {
+.sidebar-info{
+display: none;
+}
+    }
+.header-image{
+  width: 100%;
+    height: 374px;
+    background-image: url("../img/lecture-series-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+}
+.header-image-2{
+  width: 100%;
+    height: 374px;
+    background-image: url("../img/presidents-breakfast.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
+}
+.header-image-3{
+  width: 100%;
+    height: 374px;
+    background-image: url("../img/lead-where-you-stand.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+}
+.header-subnav-1{
+width: 100%;
+background-color:#212657;
+line-height: auto;
+height: 85px;
+color: #dcddde;
+text-align: center;
+font-family: 'MuseoSans-300';
+font-size: 18px;
+padding:33px 22px 22px 22px;
+text-transform: uppercase;
+}
+.header-subnav-2{
+width: 100%;
+background-color:#365777;
+line-height: auto;
+height: 85px;
+color: #dcddde;
+text-align: center;
+font-family: 'MuseoSans-300';
+font-size: 18px;
+padding:33px 22px 22px 22px;
+text-transform: uppercase;
+}
+.header-subnav-3{
+width: 100%;
+background-color:#489662;
+line-height: auto;
+height: 85px;
+color: #dcddde;
+text-align: center;
+font-family: 'MuseoSans-300';
+font-size: 18px;
+padding:33px 22px 22px 22px;
+text-transform: uppercase;
+}
+.header-subnav a{
+color:#a7a6ac;
+}
+@media screen and (max-width: 992px) {
+.header-text{
+padding-top: 20px;
+}
+    }
+@media screen and (max-width: 1110px) {
+.header-image{
+height: 409px;
+}
+}
+@media screen and (min-width: 1110px) {
+.grid-stack-contained{
+margin-right:15%;
+margin-left:15%;
+}
+}
+.gridstack{
+   height: 100% !important;
+}
+.hero{
+background-image: url(../img/mlk.jpg);
+background-position: 55% 58%;
+width:100%;height:450px;
+}
+.hero-sub{
+background-image: url(../img/lecture-series-header.jpg);
+background-position: 50% 40%;
+width:100%;height:420px;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.layer-2 {
+    background-color: rgba(224, 225, 221, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.big-bottom-button{
+    background-color: #2d637f  ;
+    text-decoration: none !important;
+    font-size: 20px;
+    color: #fff !important;
+padding: 15px 20px 10px 20px;
+    border-radius: 4px;
+}
+.big-bottom-button:hover,
+.big-bottom-button:active:hover,
+.big-bottom-button:focus {
+  background-color: #19445a    ;
+}
+.button-container{
+text-align: center;
+padding-top: 30px;
+padding-bottom: 40px;
+}
+.item-header{
+font-family: 'itc_stone_serif_stdsemibold';
+ color: #616365;
+font-size: 28px;
+padding: 5px 0px 5px 0px;
+width: 100%;
+text-decoration: underline;
+text-align: center;
+}
+.item-subheader{
+font-family: 'MuseoSans-300';
+ color: #900;
+font-size: 24px;
+max-width: 745px;
+margin: 0 auto;
+text-align: left;
+}
+.text{
+max-width:745px;margin:0 auto;font-size:16px;
+}
+
+.card-body{
+  font-family: 'MuseoSans-500';
+}
+
+.card2 img {
+  width: 100%;
+}
+
+}
+.no-padding {
+    padding: 0;
+}
+
+.card-shadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card2 {
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+   padding: 0;
+  /*background-clip: padding-box;
+  background: url("Brooks.jpg");
+  background-repeat: no-repeat;
+  background-size: 33.333333%;*/
+  /*min-height: 340px;*/
+}
+
+.card2 span.card-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card2 .card-image {
+  position: relative;
+  overflow: hidden;
+}
+.card2 .card-image img {
+  border-radius: 2px 2px 0 0;
+  background-clip: padding-box;
+  position: relative;
+  z-index: 1;
+}
+.card2 .card-image span.card-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 16px;
+}
+.card2 .card-content {
+  border-radius: 0 0 2px 2px;
+  box-sizing: border-box;
+  position: relative;
+}
+.card2 .card-content p {
+  margin: 0;
+  color: inherit;
+}
+.card2 .card-content span.card-title {
+  line-height: 48px;
+}
+.card-action {
+position: relative;
+  bottom: 0;
+  right: 0;
+/*  border-top: 1px solid rgba(160, 160, 160, 0.2);*/
+  padding: 24px;
+
+  background-color: rgb(68, 105, 125);
+/*  background-color: rgb(153, 0, 0);*/
+  text-align: center;
+}
+.card2 .card-action a {
+/*  color: #ffab40;*/
+/*  margin-right: 16px;*/
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+
+  color: #fff;
+}
+
+.card2 .card-action a:hover {
+/*  color: #ffd8a6;*/
+  text-decoration: none;
+}
+.card-action:hover {
+    background-color: rgb(68, 105, 125);
+    opacity: 0.9;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+
+
+
+
+
+/*.fade {
+   opacity: 1;
+   transition: opacity .2s ease-in-out;
+   -moz-transition: opacity .2s ease-in-out;
+   -webkit-transition: opacity .2s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.9;
+      }*/
+
+
+.square {
+	float: right;
+	border: 3px solid rgb(68, 105, 125);
+	width: 60px; height: 60px;
+	margin: 10px;
+	
+	text-align: center;
+	font-weight:700;
+	font-size: 24px;
+	line-height: .85em;
+}
+
+
+.details {
+	float: right;
+	text-align: right;
+	color: #999;
+    padding-right: 20px;
+}
+.details a {
+	color: #990000;
+	text-transform: uppercase;
+}
+.details a:hover {
+	text-decoration: underline;
+}
+
+
+
+@media (max-width: 767px) {
+  .card-action {
+  position: relative;
+  padding: 24px;
+  background-color: rgb(68, 105, 125);
+  /*background-color: red;*/
+  text-align: center;
+}
+
+}
+.bio{
+padding-top: 15px;
+}
+.bio img{
+max-width: 150px;
+float: left;
+padding-right: 20px;
+}
+.bio p{
+font-size:16px;
+}
+.bio-header{
+font-size: 20px;
+font-family: 'MuseoSans-500';
+color: #2d637f;
+
+}
+.price-header{
+font-size: 16px;
+font-family: 'MuseoSans-500';
+color: #2d637f;
+
+}
+.item{
+
+max-width: 745px;
+margin: 0 auto;
+text-align: left;
+}
+.video-thumb{
+margin-top: 10px;
+background-image: url(../img/video-test.gif);
+background-size: cover;
+background-position: 50% 50%;
+width: 100%;
+min-height: 317px;
+}
+.welcome{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    min-height: 100vh;
+  text-align: center;
+
+}
+.color{
+    background-color: #254da3;
+}
